@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model</title>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+
+      .box {
+        width: 300px;
+        background-color: #fff;
+        padding: 20px; /* Space inside the box */
+        border: 2px solid greenyellow;
+        margin: 40px auto; /* Space outside the box + center it */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      }
+      .div {
+        width: 200px;
+        background-color: rgb(230, 255, 255);
+        padding: 10px;
+        border: 2px solid blue;
+        margin: 30px auto;
+        box-shadow: 2px 2px 3px rgb(157, 157, 218);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <h2>CSS Box Model</h2>
+      <p>This is a simple box using the CSS Box Model.</p>
+    </div>
+    <div class="box">
+      <h3>WHAT IS A CSS BOX MODEL?</h3>
+      <p>
+        Every HTML element on a webpage is treated as a rectangular box. The CSS
+        Box Model describes how these boxes are structured and how they interact
+        with each other.
+      </p>
+    </div>
+  </body>
+</html>

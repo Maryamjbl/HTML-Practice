@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      form {
+        height: 800px;
+      }
+      form {
+        height: 500px;
+        border: 1px solid rgb(194, 184, 184);
+        border-radius: 10px;
+        width: 800px;
+        margin: auto; /* center align */
+      }
+      .form-label {
+        font-weight: bold;
+        color: rgb(44, 38, 38);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="my-4 text-center">Contact Us</h2>
+      <div>
+        <form class="p-4">
+          <div class="mb-4">
+            <label for="name" class="form-label">Full Name</label>
+            <input
+              type="text"
+              id="Full Name"
+              placeholder="Enter your name"
+              class="form-control"
+            />
+          </div>
+
+          <div class="mb-4">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              id="Email"
+              placeholder="Enter your Email"
+              class="form-control"
+            />
+          </div>
+
+          <div class="mb-4">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              name="Message"
+              id="message"
+              class="form-control"
+              rows="4"
+              placeholder="Enter your message "
+            >
+Message</textarea
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

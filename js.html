@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script>
+      function myp() {
+        let p1 = document.getElementById("p1");
+        p1.style.color = "blue";
+        p1.style.fontStyle = "italic";
+        p1.style.border = "2px solid purple";
+        p1.style.borderRadius = "3px";
+        p1.style.borderShadow = "2px 2px 2px purple";
+        p1.style.padding = "5px";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center py-4">JAVASCRIPT DEMO</h2>
+      <p id="p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        error odio, reiciendis neque omnis laboriosam consequuntur vero iure.
+        Dolores, minima fugit. Molestias sapiente quam amet. Illo eum est quis
+        iusto.
+      </p>
+      <div class="text-center">
+        <button class="btn btn-info w-100" onclick="myp()">Click Here</button>
+      </div>
+    </div>
+  </body>
+</html>

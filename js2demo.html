@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script>
+      function myp() {
+        document.body.style.background = "beige";
+        let paragraph = document.getElementById("paragraph");
+        paragraph.textContent =
+          "The paragraph content has been replaced with a new content";
+        let img = document.getElementById("img");
+        img.src = "img/blue.jpg";
+        img.style.border = "5px solid green";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center text-success">JAVA SCRIPT DEMO-2</h2>
+      <p id="paragraph" class="text-center">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae ipsa,
+        consequuntur, ducimus excepturi aliquid totam facilis nulla maiores
+        atque vero cupiditate. Magni nostrum voluptatibus inventore consequatur
+        rerum commodi, reiciendis nihil?
+      </p>
+    </div>
+    <div class="text-center mb-3">
+      <img src="img/rose.jpg" alt="blue" width="300px" id="img" />
+    </div>
+    <div>
+      <button class="btn btn-info w-100" onclick="myp()">Click Here</button>
+    </div>
+  </body>
+</html>
